@@ -26,7 +26,7 @@ def add_products(products):
 
 def add_pricing_rules(products, pricing_rules):
     super_ipad = products.get_product_with_sku('ipd')
-    super_ipad_bulk_discount_deal = BulkDiscountDeal(super_ipad, 4, 499.99)
+    super_ipad_bulk_discount_deal = BulkDiscountDeal(super_ipad, 5, 499.99)
 
     macBook_pro = products.get_product_with_sku('mbp')
     vga_adapter = products.get_product_with_sku('vga')
